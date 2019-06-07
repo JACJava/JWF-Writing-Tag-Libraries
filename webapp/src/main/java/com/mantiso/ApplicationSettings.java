@@ -3,9 +3,6 @@ package com.mantiso;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by kevinj.
- */
 public class ApplicationSettings {
 
     private CssClass _formCssClass;

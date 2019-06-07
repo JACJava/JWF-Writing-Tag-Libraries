@@ -1,8 +1,5 @@
 package com.mantiso;
 
-/**
- * Created by kevinj.
- */
 public class CssClass {
     private String _name;
 
