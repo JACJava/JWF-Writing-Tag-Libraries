@@ -1,7 +1,7 @@
 <taglib>
     <tlib-version>1.0</tlib-version>
     <short-name>simple-tags</short-name>
-    <uri>http://mantiso.com/simple</uri>
+    <uri>http://mantiso.com/simplejulie</uri>
     <jsp-version>2.2</jsp-version>
 
     <tag-file>
