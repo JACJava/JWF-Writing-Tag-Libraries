@@ -22,8 +22,8 @@ public class ControllerServlet extends HttpServlet {
         tabs.add(new Tab("Messages", "#messages"));
         tabs.add(new Tab("Settings", "#settings"));
         applicationSettings.setTabs(tabs);
-        String[] tabNames = {"SignIn", "Home", "Profile", "Settings"};
-        applicationSettings.setTabNames(tabNames);
+        //String[] tabNames = {"SignIn", "Home", "Profile", "Settings"};
+        //applicationSettings.setTabNames(tabNames);
         applicationSettings.setFormCssClass(cssClass);
         getServletContext().setAttribute("app", applicationSettings);
     }
@@ -34,11 +34,11 @@ public class ControllerServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         User user = new User();
-        user.setName("Kevin");
-        user.setEmail("kevinj@mantiso.com");
-        user.setAvatarUrl("images/kevin-head.jpg");
+        user.setName("JulieCakes");
+        user.setEmail("juliejava@icloud.com");
+        user.setAvatarUrl("images/julie-avatar.jpg");
         user.addTodo("Finish Course", 1);
-        user.addTodo("Go for a run", 3);
+        user.addTodo("Go For a Chardonnay", 3);
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/index.jsp");
         request.setAttribute("user", user);

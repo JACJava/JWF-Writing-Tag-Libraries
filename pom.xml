@@ -30,7 +30,7 @@
                 <configuration>
                     <url>http://localhost:8080/manager/text</url>
                     <username>tomcat-script</username>
-                    <password>s3cret</password>
+                    <password>tomcat</password>
                 </configuration>
 			</plugin>
 		</plugins>
